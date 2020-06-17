@@ -5,7 +5,7 @@ import PIL
 from PIL import Image, ImageTk
 
 HEIGHT = 300
-WIDTH = 400
+WIDTH = 500
 
 
 # https://home.openweathermap.org/api_keys
@@ -78,7 +78,7 @@ label = tk.Label(lower_frame, font=('Helvetica', 10), anchor='nw', justify='left
 label.place(relwidth=1, relheight=1)
 
 weather_icon = tk.Canvas(label, bd=0, highlightthickness=0)
-weather_icon.place(relx=0.65, rely=0, relwidth=1, relheight=0.75)
+weather_icon.place(relx=0.70, rely=0, relwidth=1, relheight=0.75)
 
 root.title('Weather App')
 
